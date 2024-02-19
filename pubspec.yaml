@@ -1,6 +1,6 @@
 name: shared_code
 description: This is the shared code in the shiaka projects
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/amrmhassan/shared_code
 
 environment:
@@ -27,6 +27,7 @@ dev_dependencies:
   json_serializable: ^6.6.2
   build_runner: ^2.4.6
   hive_generator: ^2.0.0
+  copy_with_extension_gen: ^4.0.0
 
 
 
