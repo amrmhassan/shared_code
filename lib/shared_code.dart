@@ -27,3 +27,6 @@ export './shared_code/data/custom_colors.dart';
 
 //? validation
 export './shared_code/validation/user_info_validation.dart';
+
+//? utils
+export './shared_code/utils/global_utils.dart';
