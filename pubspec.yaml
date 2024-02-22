@@ -1,6 +1,6 @@
 name: shared_code
 description: This is the shared code in the shiaka projects
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/amrmhassan/shared_code
 
 environment:

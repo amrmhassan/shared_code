@@ -11,3 +11,7 @@
 
 * Global Utils added
 
+## 0.0.4
+
+* Added more utils like AppRoutes
+
