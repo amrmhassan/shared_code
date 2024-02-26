@@ -15,3 +15,7 @@
 
 * Added more utils like AppRoutes
 
+## 0.0.5
+
+* Modal background updated
+

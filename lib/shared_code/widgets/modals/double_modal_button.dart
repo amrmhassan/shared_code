@@ -26,6 +26,7 @@ class DoubleButtonsModal extends StatelessWidget {
   final bool showCancelButton;
   final Widget? titleIcon;
   final bool? okActive;
+  final Color? backgroundColor;
 
   const DoubleButtonsModal({
     Key? key,
@@ -44,6 +45,7 @@ class DoubleButtonsModal extends StatelessWidget {
     this.showCancelButton = true,
     this.titleStyle,
     this.titleIcon,
+    this.backgroundColor,
   }) : super(key: key);
 
   @override
@@ -89,7 +91,7 @@ class DoubleButtonsModal extends StatelessWidget {
     ];
     return ModalWrapper(
       showTopLine: false,
-      color: customColors.cardBackgroundColor,
+      color: backgroundColor?? customColors.cardBackgroundColor,
       child: Column(
         children: [
           if (title != null)
