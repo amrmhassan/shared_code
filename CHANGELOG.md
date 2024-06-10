@@ -19,3 +19,7 @@
 
 * Modal background updated
 
+## 0.0.6
+
+* Text Field updated
+

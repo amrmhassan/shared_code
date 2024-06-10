@@ -33,6 +33,7 @@ class FancyTextField extends StatefulWidget {
   final Color? eyeColor;
   final TextStyle? textStyle;
   final TextStyle? hintStyle;
+  final Function(String)? onSubmitted;
 
   const FancyTextField({
     Key? key,
@@ -62,6 +63,7 @@ class FancyTextField extends StatefulWidget {
     this.eyeColor,
     this.textStyle,
     this.hintStyle,
+    this.onSubmitted,
   }) : super(key: key);
 
   @override
@@ -79,6 +81,7 @@ class _FancyTextFieldState extends State<FancyTextField> {
   @override
   Widget build(BuildContext context) {
     return CustomTextField(
+      onSubmitted: widget.onSubmitted,
       focusNode: widget.focusNode,
       decoration: widget.decoration,
       inputDecoration: widget.inputDecoration,
