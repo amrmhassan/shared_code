@@ -23,3 +23,7 @@
 
 * Text Field updated
 
+## 0.0.7
+
+* Error Colors removed
+
