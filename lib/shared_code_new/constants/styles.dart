@@ -58,9 +58,7 @@ Color dividerColor(BuildContext context) {
   return Theme.of(context).dividerColor;
 }
 
-Color errorColor(BuildContext context) {
-  return Theme.of(context).errorColor;
-}
+
 
 Color scaffoldColor(BuildContext context) {
   return Theme.of(context).scaffoldBackgroundColor;
